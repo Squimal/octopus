@@ -1,0 +1,17 @@
+keep_playing = "Y"
+while keep_playing == "Y":
+    price = input("What is your budget for a cube? (10, 10-20, 20-30, 30-40, 50-60, 60+)")
+    if (price == "10"):
+        print ("k")
+    elif (price == "20"):
+        print ("ok")
+    elif (price == "30"):
+        print ("ok")
+    elif (price == "40"):
+        print ("ok")
+    elif (price == "50"):
+        print ("ok")
+    elif (price == "60"):
+        print ("ok")
+
+    keep_playing = input("Do you want to keep playing? Yes or No ")
